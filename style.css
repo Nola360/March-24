@@ -15,59 +15,76 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
-.serach_box_container {
+.search_box_container {
   padding: 10px;
   background: red;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   border-radius: 50px;
+  /* transition: width 3s ease;  */
   /* width:600px; */
 }
 
 .search_box {
-  display: none;
-  width: 430px;
-  /* margin: 0 5px 0 0; */
+  /* display: none; */
+  width: 0px;
   border-radius: 25px;
   outline: none;
   border: none;
   height: 35px;
-  transition: width .3s ease-in-out;
   
 }
 
-
-
 .search_box.active {
-  display: block;
+  display: inline-block;
+  background: pink;
+  width: 400px;
+  
 }
 
 .fas.fa-search {
   background-color: aqua;
   padding: 15px;
   border-radius: 50%;
+  
 }
 
-.fas.fa-sesarch.active {
+.fas.fa-search.active {
   display: none;
 }
+
+.fas.fa-times {
+  
+}
+
+
+
+
+
+
+
+
 
 
 .fas.fa-times {
   background-color: aqua;
-  padding: 15px;
+  padding: 15px 17px;
   border-radius: 50%;
   display: none;
 }
 
-
-
 .fas.fa-times.active {
-  display: block;
+  background: blue;
 }
+
+
+
+
+
 
 
 
