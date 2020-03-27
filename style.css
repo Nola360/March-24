@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serach_box_container {
+  padding: 10px;
+  background: red;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  border-radius: 25px;
+  /* display: none; */
+}
+
+.search_box {
+  /* display: none; */
+  width: 400px;
+  /* margin: 0 5px 0 0; */
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  height: 30px
+  
+}
+
+.search_box.active {
+  display: block;
+  
+  
+}
+
+.fas.fa-times {
+  display: none;
+}
+
+
+
